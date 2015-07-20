@@ -1,1 +1,67 @@
-/* CSS declarations go here */
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+}
+
+footer {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #FE4B74;
+  height: 100vh;
+  
+ 
+}
+
+.topbot {
+  height: 10vh;
+}
+
+.middle {
+  height: 80vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #C3CAD9;
+}
+
+a {
+  font-weight: 700;
+  color: #373B44;
+  position: relative;
+  
+ 
+  
+  
+}

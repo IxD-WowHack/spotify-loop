@@ -3,12 +3,39 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+   {{> one}}
+    {{> two}}
+     {{> three}}
 </body>
 
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="one">
+<footer class="topbot">  
+  <div class="content">
+    <h1>Login menu.</h1>
+ </div>
+</footer>
+</template>
+
+<template name="two">
+<section class="middle">  
+  <div class="content">
+    <h1>Play area.</h1>
+    <p>Drag, drop, create loops, listen to snippets.</p>
+ </div>
+</section>
+</template>
+
+
+<template name="three">
+<footer class="topbot">  
+  <div class="content">
+    <h1>Controll menu.</h1>
+    <p>Play, pause, load songs, rewind. etc.</p>
+ </div>
+</footer>
 </template>
